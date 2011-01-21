@@ -6,6 +6,12 @@
 	<version>1.0.0</version>
 	<packaging>pom</packaging>
 	<name>Github-Master-POM</name>
-	<description>This master POM  stores common elements for 
-  my other projects stored at Github.</description>
+	<description>
+	  This master POM  stores common elements for 
+      my other projects stored at Github.
+    </description>
+	<scm>
+		<connection>scm:git:git://github.com/hamy/Github-Master-POM.git</connection>
+		<developerConnection>scm:git:git://github.com/hamy/Github-Master-POM.git</developerConnection>
+	</scm>
 </project>
