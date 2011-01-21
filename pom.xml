@@ -6,12 +6,32 @@
 	<version>1.0.0</version>
 	<packaging>pom</packaging>
 	<name>Github-Master-POM</name>
+
 	<description>
 	  This master POM  stores common elements for 
       my other projects stored at Github.
     </description>
+
+	<properties>
+		<hamy-email>harald.meyer@rz.uni-karlsruhe.de</hamy-email>
+		<hamy-scm-connection-base>scm:git:ssh://git@github.com/hamy</hamy-scm-connection-base>
+		<hamy-scm-developer-connection-base>scm:git:ssh://git@github.com/hamy</hamy-scm-developer-connection-base>
+		<hamy-scm-url-base>http://github.com/hamy</hamy-scm-url-base>
+	</properties>
+
 	<scm>
-		<connection>scm:git:git://github.com/hamy/Github-Master-POM.git</connection>
-		<developerConnection>scm:git:git://github.com/hamy/Github-Master-POM.git</developerConnection>
+		<connection>${hamy-scm-connection-base}/Github-Master-POM.git</connection>
+		<developerConnection>${hamy-scm-developer-connection-base}/Github-Master-POM.git</developerConnection>
+		<url>${hamy-scm-url-base}/Github-Master-POM</url>
 	</scm>
+
+	<developers>
+		<developer>
+			<id>rz65</id>
+			<name>Harald Meyer</name>
+			<email>${hamy.email}</email>
+			<url>${hamy-scm-url-base}/</url>
+		</developer>
+	</developers>
+
 </project>
