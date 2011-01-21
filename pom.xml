@@ -29,7 +29,7 @@
 		<developer>
 			<id>rz65</id>
 			<name>Harald Meyer</name>
-			<email>${hamy.email}</email>
+			<email>${hamy-email}</email>
 			<url>${hamy-scm-url-base}/</url>
 		</developer>
 	</developers>
