@@ -9,11 +9,12 @@
 
 	<body>
 
-		<!-- breadcrumb nav -->
-		<links>
-			<item name="Githup" href="${hamy-scm-url-base}/Github-Master-POM" />
-		</links>
-
+		<!-- breadcrumb nav causes path errors in child projects -->
+		
+		<links>  
+		 
+		</links> 
+		
 		<!-- reports -->
 		${reports}
 
