@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="${project.name}">
+
+	<bannerLeft>
+		<name>${project.name}</name>
+	</bannerLeft>
+
+	<publishDate format="yyyy-MMMM-dd HH:mm:ss" />
+
+	<body>
+
+		<!-- breadcrumb nav -->
+		<links>
+			<item name="Githup" href="${hamy-scm-url-base}/Github-Master-POM" />
+		</links>
+
+		<!-- reports -->
+		${reports}
+
+	</body>
+
+</project>
