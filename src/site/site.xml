@@ -11,7 +11,7 @@
 
 		<!-- breadcrumb nav causes path errors in child projects -->
 		<links>  
-		 
+		   <item name="Githup" href="${hamyScmUrlBase}/${project.scm.url}" />
 		</links> 
 		
 		<!-- reports -->

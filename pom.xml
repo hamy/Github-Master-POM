@@ -13,24 +13,24 @@
     </description>
 
 	<properties>
-		<hamy-email>harald.meyer@rz.uni-karlsruhe.de</hamy-email>
-		<hamy-scm-connection-base>scm:git:ssh://git@github.com/hamy</hamy-scm-connection-base>
-		<hamy-scm-developer-connection-base>scm:git:ssh://git@github.com/hamy</hamy-scm-developer-connection-base>
-		<hamy-scm-url-base>http://github.com/hamy</hamy-scm-url-base>
+		<hamyEmail>harald.meyer@rz.uni-karlsruhe.de</hamyEmail>
+		<hamyScmConnectionBase>scm:git:ssh://git@github.com/hamy</hamyScmConnectionBase>
+		<hamyScmDeveloperConnectionBase>scm:git:ssh://git@github.com/hamy</hamyScmDeveloperConnectionBase>
+		<hamyScmUrlBase>http://github.com/hamy</hamyScmUrlBase>
 	</properties>
 
 	<scm>
-		<connection>${hamy-scm-connection-base}/Github-Master-POM.git</connection>
-		<developerConnection>${hamy-scm-developer-connection-base}/Github-Master-POM.git</developerConnection>
-		<url>${hamy-scm-url-base}/Github-Master-POM</url>
+		<connection>${hamyScmConnectionBase}/Github-Master-POM.git</connection>
+		<developerConnection>${hamyScmDeveloperConnectionBase}/Github-Master-POM.git</developerConnection>
+		<url>${hamyScmUrlBase}/Github-Master-POM</url>
 	</scm>
 
 	<developers>
 		<developer>
 			<id>rz65</id>
 			<name>Harald Meyer</name>
-			<email>${hamy-email}</email>
-			<url>${hamy-scm-url-base}/</url>
+			<email>${hamyEmail}</email>
+			<url>${hamyScmUrlBase}/</url>
 		</developer>
 	</developers>
 
