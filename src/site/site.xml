@@ -9,7 +9,6 @@
 
 	<body>
 
-		<!-- breadcrumb nav causes path errors in child projects -->
 		<links>  
 		   <item name="Github Master POM" href="${project.scm.url}" />
 		</links> 
