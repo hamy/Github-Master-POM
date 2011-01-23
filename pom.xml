@@ -6,6 +6,7 @@
 	<version>1.0.0</version>
 	<packaging>pom</packaging>
 	<name>Github-Master-POM</name>
+	<url>${hamyScmUrlBase}/Github-Master-POM</url>
 
 	<description>
 	  This master POM  stores common elements for 
