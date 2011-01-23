@@ -9,7 +9,7 @@
 
 	<!-- Hint: we need a url element; otherwise, "mvn site" will fail with projects 
 		that inherit from this master POM -->
-	<url>${hamyScmUrlBase}/Github-Master-POM</url>
+	<url>${hamyScmUrlBase}/Github-Master-POM/</url>
 
 	<description>
 	  This master POM  stores common elements for 
@@ -20,7 +20,7 @@
 		<hamyEmail>harald.meyer@rz.uni-karlsruhe.de</hamyEmail>
 		<hamyScmConnectionBase>scm:git:ssh://git@github.com/hamy</hamyScmConnectionBase>
 		<hamyScmDeveloperConnectionBase>scm:git:ssh://git@github.com/hamy</hamyScmDeveloperConnectionBase>
-		<hamyScmUrlBase>http://github.com/hamy</hamyScmUrlBase>
+		<hamyScmUrlBase>https://github.com/hamy</hamyScmUrlBase>
 	</properties>
 
 	<scm>
