@@ -6,6 +6,9 @@
 	<version>1.0.0</version>
 	<packaging>pom</packaging>
 	<name>Github-Master-POM</name>
+
+	<!-- Hint: we need a url element; otherwise, "mvn site" will fail with projects 
+		that inherit from this master POM -->
 	<url>${hamyScmUrlBase}/Github-Master-POM</url>
 
 	<description>
